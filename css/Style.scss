@@ -180,14 +180,44 @@ body{
 
     .flex{
       .demiArt{
+        justify-content: center;
         img{
           position: relative;
           width: 100%;
         }
         .content{
           position: absolute;
-          bottom: 0px;
+          top: 2500px;
+          align-items: center;
+          h2{
+            font-size: 28px;
+            color: #052C3B;
+            opacity: 0.75;
+          }
+          p{
+            color: #19536C;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 27px;
+            letter-spacing: -0.11428571492433548px;
+            height: 81px;
+            width: 339px;
+
+          }
         }
+        &:nth-child(1){
+          .content{
+            h2{
+              color: #24554A;
+              opacity: 1;
+            }
+            p{
+              color: #3E7467;
+            }
+          }
+        }
+
       }
     }
 
