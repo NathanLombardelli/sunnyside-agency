@@ -310,6 +310,57 @@ body{
     }
   }
 
+  #footer{
+    height: 350px;
+    background: #90D4C6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #logoFooter{
+      height: 33px;
+      width: 170px;
+      margin: 72px 0 40px 0;
+    }
+    ul{
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 297px;
+    }
+    #linksFooter{
+      justify-content: space-between;
 
+      li{
+
+        color: #458D7E;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: -0.12857143580913544px;
+        &:hover{
+          color:#FFFFFF;
+        }
+
+      }
+      margin-bottom: 88px;
+    }
+    #socialFooter{
+      justify-content: center;
+      text-align: center;
+
+      li{
+        color:#2C7566;
+        padding-left:14px ;
+        padding-right:14px ;
+        &:hover{
+          color:#FFFFFF;
+        }
+      }
+    }
+
+
+
+  }
 
 }
